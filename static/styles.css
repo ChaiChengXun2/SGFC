@@ -1,0 +1,35 @@
+.mydiv
+{ 
+    padding: 50px;
+}
+
+img
+{ 
+    width: 100%;
+    height: auto;
+}
+
+h1{ 
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.myflex
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.myflex div{
+    width: 80%; /* Can be in percentage also. */
+    height: auto;
+    margin: 20px auto;
+    position: relative;
+}
